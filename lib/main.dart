@@ -22,11 +22,6 @@ class _MyAppState extends State<MyApp> {
         body: SafeArea(
           child: Column(
             mainAxisAlignment:MainAxisAlignment.center ,
-            //crossAxisAlignment:CrossAxisAlignment.end,
-            // mainAxisSize: MainAxisSize.min,
-            //verticalDirection: VerticalDirection.down,
-            //verticalDirection: VerticalDirection.up,
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -60,7 +55,6 @@ class _MyAppState extends State<MyApp> {
 
               ),
               Card(
-                //padding:EdgeInsets.all(10.0) ,
                 color: Colors.transparent,
                 margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.0),
                 child: Padding(
